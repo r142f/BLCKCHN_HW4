@@ -2,12 +2,12 @@
 - [Получите Alchemy API key](https://docs.alchemy.com/docs/alchemy-quickstart-guide#1key-create-an-alchemy-key).
 ## Как запустить
 - Склонируйте репозиторий. 
-- Создайте файл [env.json](env.json) со следующим содержанием:
+- Создайте в нем файл [env.json](env.json) со следующим содержанием:
 
       {
         "ALCHEMY_API_KEY": "YOUR_KEY"
       }
-      
+  Этот файл должен быть на том же уровне, что и `package.json`.
 - Замените `YOUR_KEY` на полученный ранее API ключ Alchemy.
 - В репозитории проекта:
     ```bash
